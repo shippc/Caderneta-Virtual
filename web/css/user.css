@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #fff;
+    transition: all 0.3s;
+    font-weight: 600;
+    box-shadow: 1px 1px 4px rgba(100, 100, 100, 0.3);
+    margin-top: 1%;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 0px rgba(100, 100, 100, 0.3);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar a:hover {
+    color: #21d192;
+    background-color: #fff;
+    transition: 0.6s;
+}
+#sidebarCollapse {
+    background-color: #21d192;
+    border: none;
+}
+#sidebarCollapse:hover{
+    transition: 0.6s;
+    opacity: 0.8;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f9fa;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #ECECEC;
+}
+
+ul.CTAs {
+    padding: 15px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    border: 1px solid #E1E1E1;
+    background-color: #000;
+    color: #fff;
+}
+
+ul.CTAs a:hover{
+    transition: 0.6s;
+    background-color: #21d192!important;
+    color: #fff !important;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
+
+/* ---------------------------------------------------
+    TABELAS
+----------------------------------------------------- */
+
+.m-inicio{
+    background-color: #d4e5f5;
+}
+.m-corpo{
+    background-color: #edf4fb;
+}
+.f-inicio{
+    background-color: #fbdcd9;
+}
+.f-corpo{
+    background-color: #fdf1ef;
+}
+
+
+
+
+/* ---------------------------------------------------
+    CALENDÁRIO BÁSICO
+----------------------------------------------------- */
+
+.font-nav {
+    font-size: 1.5rem !important;
+}
+
+.btn-collapse span {
+    background-color: #fff !important;
+}
+
+.navbar-calendary {
+    background-color: #21d192 !important;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: -1px 8px 50px -2px rgba(33, 209, 146, 0.5) !important;
+}
+
+.nav-link-calendary:hover {
+    transition: 0.3s;
+    color: #21d192;
+    background-color: #fff;
+}
+
+.content-calendary li{
+    list-style-type: none;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+
+/* ---------------------------------------------------
+    FORMULÁRIOS
+----------------------------------------------------- */
+
+.formulario {
+    padding: 3%;
+    box-shadow: 1px 3px 23px -6px rgba(100, 100, 100, 0.85);
+    font-family: Poppins-Medium;
+}
+
+.lista {
+    margin: 3%;
+    padding: 5%;
+    box-shadow: 1px 3px 23px -6px rgba(100, 100, 100, 0.85);
+    font-family: Poppins-Medium;
+}
+
+.lista span:hover{
+    color: #21d192;
+    transition: 0.5s;
+}
+
+.lista span{
+    font-size: 1.5rem;
+}
+
+
+.bot {
+    padding-top: 2%;
+}
+
+.btn-send, .btn-reset, .btn-alter {
+    height: 50px;
+    margin: 1px;
+    border: none;
+}
+
+.btn-alter {
+    background-color: #595E5C;
+}
+
+.btn-alter:hover {
+    background-color: #303F39;
+    transition: 0.6s;
+}
+
+.btn-send {
+    background-color: #21d192;
+
+}
+
+.btn-send:hover {
+    background-color: #19A76D;
+    transition: 0.6s;
+}
+
+/*======================================
+//--//-->   FORMULÁRIO DADOS
+======================================*/
+
+/*------/ Input Formulário Dados /------*/
+
+.inputdados {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+
+    padding: 0 30px 0 68px;
+}
+
+.inputdadim {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border: none;
+    padding: 0 30px 0 30px;
+}
+
+/*------/ Input Modal Acesso /------*/
+
+.input-acesso {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #303F39;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+}  
+
+/*------/ Focus Formulário Dados /------*/
+
+.focus-inputdados {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(33,209,146, 0.8);
+}
+
+.inputdados:focus + .focus-inputdados {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+.symbol-inputdados, .symbol-inputdados-phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    color: #666666;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+
+.symbol-inputdados {
+    font-size: 15px;
+}
+
+.symbol-inputdados-phone {
+    font-size: 18px;
+}
+
+.inputdados:focus + .focus-inputdados + .symbol-inputdados {
+    color: #21D192;
+    padding-left: 28px;
+}
+
+.inputdados:focus + .focus-inputdados + .symbol-inputdados-phone {
+    color: #21D192;
+    padding-left: 28px;
+}
+
+/*------/ Focus Modal Acesso /------*/
+
+.focus-input-acesso {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(48, 63, 57, 1);
+}
+
+.input-acesso:focus + .focus-input-acesso {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+.symbol-input-acesso {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    color: #666666;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input-acesso:focus + .focus-input-acesso + .symbol-input-acesso {
+    color: #303F39;
+    padding-left: 28px;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAS
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+        color: #000;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    #Collapsesidebar span {
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+.content-calendary {
+    border: 1px solid #B5BABE;
+    padding: 5%;
+}
+
+.content-calendary li{
+    list-style-type: none;
+}
+
+.image-calendary {
+    width: 90px;
+    height: 120px;
+    position: absolute;
+    z-index: 100;
+    background-image: url('../image/tub-vac-bebe.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 3px red;
+}
+
